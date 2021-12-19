@@ -152,10 +152,6 @@ figcaption {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
-    body {
-        font-size: 16px;
-    }
-    
     .desktop {
         display: block;
     }
@@ -172,7 +168,6 @@ figcaption {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 769px or larger -- so desktop */
     .desktop {
-        font-size: 16px;
     }
 
 }
