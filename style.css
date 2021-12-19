@@ -151,16 +151,17 @@ figcaption {
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-    .desktop {
-        display: block;
-    }
-
     body,
     html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
+
+    .desktop {
+        display: block;
+    }
+
 
     .mobile {
         display: none;
@@ -172,6 +173,13 @@ figcaption {
 @media(min-width: 769px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 769px or larger -- so desktop */
+    body,
+    html {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 }
 /*********************************************************************
   YOUR MEDIUM-DESKTOP-ONLY STYLES GO HERE
