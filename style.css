@@ -152,6 +152,10 @@ figcaption {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
+    .container {
+        font-size: 16px;
+    }
+
     .desktop {
         display: block;
     }
@@ -170,6 +174,7 @@ figcaption {
     .desktop {
     }
 
+
 }
 /*********************************************************************
   YOUR MEDIUM-DESKTOP-ONLY STYLES GO HERE
@@ -180,6 +185,8 @@ figcaption {
     .container {
         padding: 0;
     }
+
+
 }
 /*********************************************************************
   YOUR LARGE DESKTOP-ONLY STYLES GO HERE
@@ -187,8 +194,11 @@ figcaption {
 @media(min-width: 1205px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 769px or larger -- so desktop */
+
+
     .container.image .caption,
     .container.image figcaption {
         padding: 5px 0;
     }
+
 }
